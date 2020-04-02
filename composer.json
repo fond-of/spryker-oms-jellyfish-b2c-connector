@@ -1,0 +1,36 @@
+{
+  "name": "fond-of-spryker/oms-jellyfish-b2c-connector",
+  "description": "OmsJellyfishB2CConnector module.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "József Geng",
+      "email": "gengjozsef86@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "fond-of-spryker/jellyfish-b2c": "^1.0",
+    "spryker/oms": "^8.4"
+  },
+  "require-dev": {
+    "spryker/code-sniffer": "^0.12",
+    "codeception/codeception": "^2.4",
+    "mikey179/vfsstream": "^1.6",
+    "phpro/grumphp": "^0.14",
+    "sebastian/phpcpd": "^4.0",
+    "php-coveralls/php-coveralls": "^2.1"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "FondOfSpryker\\": "src/FondOfSpryker/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FondOfSpryker\\": "tests/FondOfSpryker/"
+    }
+  }
+}
