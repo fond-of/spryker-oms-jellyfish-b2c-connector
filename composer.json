@@ -10,8 +10,8 @@
   ],
   "require": {
     "php": ">=7.1",
-    "fond-of-spryker/jellyfish-b2c": "^1.0",
-    "spryker/oms": "^8.4"
+    "fond-of-spryker/jellyfish-b2c": "dev-master",
+    "spryker/oms": "^11.4"
   },
   "require-dev": {
     "spryker/code-sniffer": "^0.12",
